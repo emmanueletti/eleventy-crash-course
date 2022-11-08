@@ -7,9 +7,9 @@ module.exports = function (eleventyConfig) {
       includes: '_includes', // includes seems to be 11tys version of partials
       output: '_site',
     },
-    templateFormats: ['md', 'njx', 'html'],
-    markdownTemplateEngine: 'njx',
-    htmlTemplateEngine: 'njx',
-    dataTemplateEngine: 'njx',
+    templateFormats: ['md', 'njk', 'html'],
+    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
   };
 };

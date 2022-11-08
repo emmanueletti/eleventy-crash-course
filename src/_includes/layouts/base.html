@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "partials/basehead.html" %}
+  </head>
+  <body>
+    <!-- njk / nunjucks is a wrapper around liquid - gives liquid JS superpowers -->
+    {{ content | safe }}
+  </body>
+</html>

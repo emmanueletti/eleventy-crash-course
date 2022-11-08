@@ -2,12 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eleventy crash course #1</title>
+
   </head>
   <body>
-    <h1>I am the home page</h1>
-    <p>I am also on the homepage</p>
+    <!-- njk / nunjucks is a wrapper around liquid - gives liquid JS superpowers -->
+    
+<!-- since the file is given to njk to be preprocessed - can legally add markdown like metadata at the top -->
+<!-- used to pass variables to be used in the pages -->
+
+<h1>I am the home page</h1>
+<p>I am also on the homepage - but in a partial</p>
+<!-- its all just html (pre-processed with the template engine of choice - in this case njk) -->
+<!-- so can use simple html elements - no link_to's like rails -->
+<a href="/contact">Go to the contact page</a>
+
   </body>
 </html>
