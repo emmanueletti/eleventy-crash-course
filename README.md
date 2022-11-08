@@ -1,6 +1,6 @@
 # 11ty Crash Course
 
-Learning from [this source](https://www.youtube.com/watch?v=uzM5lETc6Sg)
+Learning from [this resource](https://www.youtube.com/watch?v=uzM5lETc6Sg&list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW)
 
 ## Notes
 
