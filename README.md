@@ -13,3 +13,4 @@ Learning from [this resource](https://www.youtube.com/watch?v=uzM5lETc6Sg&list=P
 ### Where I stopped
 
 - [creating a blog](https://www.youtube.com/watch?v=2maHivd3pvA&list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW&index=5)
+- [older resource to check out](https://learneleventyfromscratch.com/#about-your-instructor)
