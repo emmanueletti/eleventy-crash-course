@@ -1,0 +1,20 @@
+[
+  {
+    "title": "VonRueden, Cassin and O'Keefe",
+    "link": "/contact",
+    "linkText": "Contact",
+    "isRaised": true
+  },
+  {
+    "title": "Kirlin - Bednar",
+    "link": "/contact",
+    "linkText": "Contact",
+    "isRaised": false
+  },
+  {
+    "title": "Fritsch - Dibbert",
+    "link": "/contact",
+    "linkText": "Contact",
+    "isRaised": true
+  }
+]

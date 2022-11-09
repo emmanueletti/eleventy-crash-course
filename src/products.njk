@@ -1,0 +1,17 @@
+---
+title: "Products"
+layout: layouts/products.njk
+description: "All the products"
+---
+
+<h1>{{title}}</h1>
+
+{# {{ topProducts | dump }} #}
+
+<ul>
+  {% for product in topProducts %}
+    <li>
+      {{product.title}} | <strong>${{product.price}}</strong>
+    </li>
+  {% endfor %}
+</ul>

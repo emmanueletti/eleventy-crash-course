@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.html
+layout: layouts/home.njk
 title: 'Eleventy crash course #1'
 ---
 
@@ -16,3 +16,13 @@ title: 'Eleventy crash course #1'
   width="300px"
   src="assets/images/denis-degioanni-9wH624ALFQA-unsplash.jpg"
   alt="photo of the stars" />
+
+<div class="home-card__container">
+  {# 11ty knows what "cards" is by checking the special _data dir for a file with the same name #}
+  {# that file can be a raw json data file or a js file making an API call and returning a data object #}
+  {% for card in cards %}
+    {% Card title=card.title, link=card.link, linkText=card.linkText,
+    isRaised=card.isRaised %}
+  {% endfor %}
+
+</div>

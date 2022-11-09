@@ -1,4 +1,4 @@
-{% extends "layouts/base.html" %}
+{% extends "layouts/base.njk" %}
 <!-- really interesting way for 11ty to do inheritance -->
 <!-- layouts can inherit from parent layouts and can use things like block quotes to override default behaviour found in
 parents
@@ -8,6 +8,6 @@ parents
 <!-- the contact page can now use this as its layout rather than directly the parent base layout -->
 
 {% block head %}
-<meta name="description" content="{{description}}" />
-<link rel="stylesheet" href="/css/contact.css" />
+  <meta name="description" content="{{description}}" />
+  <link rel="stylesheet" href="/css/contact.css" />
 {% endblock %}
