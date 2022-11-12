@@ -1,6 +1,11 @@
 # 11ty Crash Course
 
-Learning from [this resource](https://www.youtube.com/watch?v=uzM5lETc6Sg&list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW)
+Seems the [this](https://dev.to/psypher1/lets-learn-11ty-part-1-installation-setup-3c0) is the better resource
+- expect for the info on shortcodes 
+- I prefer the shortcode components technique from the below youtube playlist
+
+Alternative learning [resource](https://www.youtube.com/watch?v=uzM5lETc6Sg&list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW
+- really like the shortcode components technique
 
 ## Notes
 
